@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 """Define route for the root URL that returns the string"""
-@app.route("/", strict_slashes=False)
+@app.route("/airbnb-onepage/", strict_slashes=False)
 def hello_holberton():
     return "Hello HBNB!"
 
